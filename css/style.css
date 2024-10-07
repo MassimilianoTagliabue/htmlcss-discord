@@ -18,7 +18,7 @@ img {
     --bg-darkgray: #23272a;
     --bg-aquamarine: #7fffd4;
     --bg-btn-scarica:#7289da;
-    --height-block: 800px;
+    --height-block: 700px;
     --height-cont: 600px;
     --height-padd: 50px;
 
@@ -26,6 +26,7 @@ img {
 
 body{
     font-size: 1.2rem;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif; */
@@ -80,26 +81,22 @@ line-height: 30px;
     text-align: end;
 }
 
-.col-17 {
-    width: 17.5%;
+.col-20 {
+    width: 20%;
 
-    /* DEBUG */
-    border: 2px dashed white;
 }
 
 .col-15 {
     width: 15%;
     align-self: center;
-    /* DEBUG */
-    /* border: 2px dashed black; */
+    
 
 }
 
 .col-30 {
     width: 30%;
 
-    /* DEBUG */
-    border: 2px dashed black;
+    
 }
 
 .col-40 {
@@ -117,8 +114,7 @@ line-height: 30px;
 .col-70 {
     width: 70%;
 
-    /* DEBUG */
-    border: 2px dashed black;
+    
 }
 
 a {
@@ -138,7 +134,14 @@ h2{
     
 }
 
+.font-nav-bar{
+    font-size: 0.9rem;
+}
 
+.wave{
+    width: 100%;
+    margin-bottom: -5px;
+}
 /* HEADER */
 
 .header {
@@ -158,6 +161,10 @@ h2{
 
 .mg-left{
     margin-left: 60px;
+}
+
+.mg-bot{
+margin-bottom: 20px;
 }
 
 .btn-white {
@@ -189,7 +196,7 @@ h2{
 
     /* DEBUG */
     height: 400px;
-    border: 2px solid black;
+    
 }
 /* MAIN */
 
@@ -228,7 +235,6 @@ h2{
 }
 
 .bg-green {
-    padding: 70px;
     width: 100%;
 
     /* DEBUG */
@@ -253,50 +259,47 @@ h3{
 
 /* FOOTER */
 
+footer{
+    color: white;
+}
+
+.title-blue{
+    color: var(--bg-btn-scarica);
+    padding-top: 10px;
+}
+
+li{
+    list-style: none;
+    padding: 20px 30px;
+}
+
+
 .bg-darkgray {
     background-color: var(--bg-darkgray);
+    padding: 100px 0;
 
     /* DEBUG */
 
     border: 2px solid red;
 }
 
-.bg-salmon {
-    background-color: var(--bg-salmon);
-
-    /* DEBUG */
-    height: 700px;
-
+.ita{
+    width: 20px;
+    height: 15px;
 }
 
-.bg-seagreen {
-    background-color: var(--bg-seagreen);
-
-    /* DEBUG */
-    height: 700px;
-    border: 2px dashed white;
-
+i{
+    padding:15px 8px;
 }
 
 hr {
-    border-color: white;
-    margin: 50px 0;
+    border-color: var(--bg-btn-scarica);
+    margin: 50px 100px;
 }
 
-.bg-aquamarine {
-    background-color: var(--bg-aquamarine);
+
+.bg-aquamarine{
     width: 100%;
-    /* DEBUG */
-    height: 80px;
-    border: 2px solid red;
-
-}
-
-.button {
-    background-color: var(--bg-salmon);
-    width: 100px;
-    padding: 5px;
-    border: 2px dashed black;
-    text-align: center;
-    align-self: center;
+    display: flex;
+    justify-content: space-between;
 }
